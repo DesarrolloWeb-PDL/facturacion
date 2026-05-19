@@ -8,9 +8,10 @@ Dejar un camino corto y repetible para desplegar la web en Vercel y la API en Ra
 
 El repo ya incluye [vercel.json](vercel.json) con:
 
-- rootDirectory en apps/web
 - installCommand con pnpm
 - buildCommand filtrado a @facturacion/web
+
+El Root Directory debe configurarse en el proyecto de Vercel como apps/web. No se define en vercel.json para este repo.
 
 ### Variables necesarias
 
@@ -19,7 +20,7 @@ El repo ya incluye [vercel.json](vercel.json) con:
 ### Flujo sugerido
 
 1. Crear proyecto en Vercel desde el repo.
-2. Confirmar que detecta la configuracion del archivo vercel.json.
+2. Configurar Root Directory = apps/web.
 3. Cargar NEXT_PUBLIC_API_BASE_URL apuntando a la API desplegada.
 4. Ejecutar primer deploy.
 

@@ -77,6 +77,7 @@ Proyecto:
 
 - Framework Preset: Next.js
 - Root Directory: apps/web
+- vercel.json sin rootDirectory; ese valor se define en el panel de Vercel
 
 Variables:
 
