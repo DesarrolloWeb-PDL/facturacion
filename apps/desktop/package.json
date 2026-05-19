@@ -1,0 +1,9 @@
+{
+  "name": "@facturacion/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node -e \"console.log('Desktop scaffold pendiente')\"",
+    "check": "node -e \"console.log('Desktop check pendiente')\""
+  }
+}
