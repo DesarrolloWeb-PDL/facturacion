@@ -97,7 +97,11 @@ importers:
         specifier: ^5.8.3
         version: 5.9.3
 
-  packages/db: {}
+  packages/db:
+    dependencies:
+      pg:
+        specifier: ^8.15.6
+        version: 8.20.0
 
   packages/domain:
     devDependencies:

@@ -8,6 +8,10 @@
     "dev:api": "corepack pnpm --filter @facturacion/api dev",
     "dev:desktop": "corepack pnpm --filter @facturacion/desktop dev",
     "check": "corepack pnpm -r check",
-    "db:validate": "corepack pnpm --filter @facturacion/db validate"
+    "db:validate": "corepack pnpm --filter @facturacion/db validate",
+    "db:apply": "corepack pnpm --filter @facturacion/db apply",
+    "deploy:api:start": "corepack pnpm --filter @facturacion/api start",
+    "deploy:api:check": "corepack pnpm --filter @facturacion/api check",
+    "deploy:web:build": "corepack pnpm --filter @facturacion/web build"
   }
 }

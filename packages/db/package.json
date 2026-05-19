@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "validate": "node ./scripts/validate-schema.mjs"
+    "validate": "node ./scripts/validate-schema.mjs",
+    "apply": "node ./scripts/apply-schema.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.15.6"
   }
 }

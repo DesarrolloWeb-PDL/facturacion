@@ -53,6 +53,10 @@ Eso requeriria refactorar la API actual hacia route handlers o funciones serverl
 6. Cargar variables de entorno en ambos despliegues.
 7. Validar onboarding, login, sync y vouchers.
 
+Guia concreta del repo actual:
+
+- [docs/vercel-railway-deploy.md](docs/vercel-railway-deploy.md)
+
 ## Variables por servicio
 
 ### apps/web

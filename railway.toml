@@ -1,0 +1,8 @@
+[build]
+builder = "railpack"
+buildCommand = "corepack pnpm install --frozen-lockfile && corepack pnpm --filter @facturacion/api check"
+
+[deploy]
+startCommand = "corepack pnpm --filter @facturacion/api start"
+healthcheckPath = "/health"
+healthcheckTimeout = 100

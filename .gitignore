@@ -10,6 +10,7 @@ coverage/
 *.db
 *.sqlite
 *.sqlite3
+*.tsbuildinfo
 *.log
 Thumbs.db
 Desktop.ini

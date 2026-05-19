@@ -28,6 +28,7 @@ La idea no es elegir entre web o local. La idea es que ambos clientes convivan s
 - docs/monorepo-structure.md: reparto de responsabilidades del monorepo
 - docs/hybrid-local-web-sync-architecture.md: arquitectura concreta para coexistencia local + web + sync
 - docs/deployment-checklist.md: que falta para ejecutar y como desplegar web, API y base
+- docs/vercel-railway-deploy.md: configuracion concreta de primer deploy en Vercel y Railway
 - docs/arca-client-onboarding-manual.md: checklist para pedir datos y credenciales ARCA a cada cliente
 
 ## Criterio inicial
